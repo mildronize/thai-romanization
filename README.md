@@ -16,3 +16,15 @@ Train on 517881 samples, validate on 129471 samples
 Epoch 11
 loss: 0.0062 - val_loss: 0.0100
 ```
+
+## Getting Started
+
+Please make sure you have installed `pipenv`
+
+for ubuntu/WSL => `sudo apt install pipenv`
+
+```
+pipenv shell
+pipenv install
+python3 ./train.pu
+```
